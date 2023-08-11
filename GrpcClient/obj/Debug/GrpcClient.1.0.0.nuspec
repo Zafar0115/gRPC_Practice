@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GrpcClient</id>
+    <version>1.0.0</version>
+    <authors>GrpcClient</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Google.Protobuf" version="3.21.5" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Net.ClientFactory" version="2.49.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\source\repos\GrpcService\GrpcClient\bin\Debug\net7.0\GrpcClient.runtimeconfig.json" target="lib\net7.0\GrpcClient.runtimeconfig.json" />
+    <file src="C:\Users\user\source\repos\GrpcService\GrpcClient\bin\Debug\net7.0\GrpcClient.dll" target="lib\net7.0\GrpcClient.dll" />
+  </files>
+</package>
